@@ -1,0 +1,18 @@
+include <stdio.h>
+
+int main() {
+
+int arr[5]; // Static allocation: array size is fixed at compile time
+
+for (int i = 0; i < 5; i++) {
+
+arr[i] = i * 10; // Assign values
+
+}
+
+for (int i = 0; i < 5; i++) {
+
+printf(“%d “, arr[i]); // Print the values
+}
+return 0
+}

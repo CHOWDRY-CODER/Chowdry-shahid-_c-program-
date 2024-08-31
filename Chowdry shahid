@@ -1,0 +1,58 @@
+include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define TABLE_SIZE 10
+
+struct Node {
+int key;
+int value;
+struct Node *next;
+};
+struct Node*hashTable[TABLE_SIZE];
+int hashFunction(int key) {
+    return key % TABLE_SIZE;
+
+    void insert(int key, int value) {
+        int hashIndex = hashFunction(key);
+
+    newNode->key = key;
+    newNode->value = value;
+    newNode->next = NULL;
+
+    if (hashTable[index] == NULL) {
+        hashTable[hashIndex] = neeNode;
+    }else{}
+    }
+}
+int hashFunction(int key) {
+    return key % TABLE_SIZE;
+}
+
+void insert(int key, int value) {
+    int hashIndex = hashFunction(key);
+
+    newNode->key = key;
+    newNode->value = value;
+    newNode->next = NULL;
+
+
+ int search(int key) {
+        int hashIndex = hashFunction(key);
+        struct Node *temp = hashTable[hashIndex];
+
+  void display() {
+       for (int i = 0; i < TABLE_SIZE; i++) {
+          struct Node *temp = hashTable[i];
+    printf("Index %d: ", i);
+
+
+int main () {
+    for(int i = 0; i < TABLE_SIZE; i++) {
+        
+    }
+}
+       }
+
+
+        
